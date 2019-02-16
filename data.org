@@ -11,6 +11,10 @@
  |   4 | INT  | 6x9m  | 3+3+3 |   180+ | 6m   | 1 (easy)+ 1 (Full) +1 (easy) |        |
  |   5 | INT  | 3x20m |       |    170 | 15m  |                              |        |
 
+- FTP: The test
+- UDF: User Defined Fun
+- INT: Interval
+
 ** Genral Build Add-on
 *** W0D1
 **** [Squat](https://en.wikipedia.org/wiki/Squat_(exercise))
