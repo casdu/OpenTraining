@@ -2,18 +2,27 @@
 
 *** Week 0
 
- | Day | Type | Set   |   Exe | Target | Rest | Instruction                  | Musics |
- |-----+------+-------+-------+--------+------+------------------------------+--------|
- |   0 | FTP  |       |       |        |      |                              |        |
- |   1 | UDF  | 90m   |       |    150 |      |                              |        |
- |   2 | INT  | 7x5m  |       |    185 | 5m   |                              |        |
- |   3 | UDF  | 75m   |       |    150 |      |                              |        |
- |   4 | INT  | 6x9m  | 3+3+3 |   180+ | 6m   | 1 (easy)+ 1 (Full) +1 (easy) |        |
- |   5 | INT  | 3x20m |       |    170 | 15m  |                              |        |
+ | Day | Type | Set   |   Exe | Target | Rest | Instruction                  |
+ |-----+------+-------+-------+--------+------+------------------------------|
+ |   0 | FTP  |       |       |        |      |                              |
+ |   1 | UDF  | 90m   |       |    150 |      |                              |
+ |   2 | INT  | 7x5m  |       |    185 | 5m   |                              |
+ |   3 | UDF  | 75m   |       |    150 |      |                              |
+ |   4 | INT  | 6x9m  | 3+3+3 |   180+ | 6m   | 1 (easy)+ 1 (Full) +1 (easy) |
+ |   5 | INT  | 3x20m |       |    170 | 15m  |                              |
+
+*** Week 1
+
+ | Day | Type | Set   | Exe   | Target | Rest      | Instruction |
+ |-----+------+-------+-------+--------+-----------+-------------|
+ |   0 | INT  | 3x15m | 3+3+3 |   185+ | R@6m;r@3m | Max Power   |
+ |   1 | SPR  | 3     | 20s   |   195+ |           |             |
 
 - FTP: The test
 - UDF: User Defined Fun
 - INT: Interval
+- SPR: Sprint
+
 
 ** Genral Build Add-on
 *** W0D1
