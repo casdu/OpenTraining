@@ -21,15 +21,21 @@
  |   3 | UDF  | -     | 1h           |   155+ | -         | Rest        |
  |   4 | INT  | 3x20m | 5*(1+3(qua)) |    180 | R@10@     |             |
 
+*** Jargon
+
 - FTP: The test
 - UDF: User defined fun
 - INT: Interval
 - SPR: Sprint
 - qua: 1m (ramp up) + 1m (max) + 1 (ramp down)
+-  HR: Heart Rate 
+-   W: Watts
+
+
 
 ** Genral Build Add-on
 *** W0D1
-**** [Squat](https://en.wikipedia.org/wiki/Squat_(exercise))
+**** Squat
 | set |  load kg  | load lb       | num |
 |:---:|:---------:|:-------------:|:---:|
 |  0  |  60.8     | 45            |  5  |
