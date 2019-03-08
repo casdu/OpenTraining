@@ -1,4 +1,5 @@
 #+CONSTANTS: oldFTP=260
+#+CONSTANTS: currentFTP=265
 
 ** General Build
 
@@ -7,21 +8,23 @@
  | Day | Type | Set   |   Exe | Target (Watts) | Target (HR) | Rest | Instruction                  |
  |-----+------+-------+-------+----------------+-------------+------+------------------------------|
  |   0 | FTP  | NA    |       |                |             |      |                              |
- |   1 | UDF  | NA    |       |                |         150 |      | 90m                          |
- |   2 | INT  | 7x5m  |       |                |         185 | 5m   |                              |
+ |   1 | UDF  | NA    |       |            212 |         150 |      | 90m                          |
+ |   2 | INT  | 7x5m  |       |            286 |         185 | 5m   |                              |
  |   3 | UDF  | NA    |       |                |         150 |      | 75m                          |
  |   4 | INT  | 6x9m  | 3+3+3 |                |        180+ | 6m   | 1 (easy)+ 1 (full) +1 (easy) |
  |   5 | INT  | 3x20m |       |                |         170 | 15m  |                              |
+ #+TBLFM: @3$5=$currentFTP * .80;%.0f
+ #+TBLFM: @4$5=$currentFTP * 1.08;%.0f
 
 *** Week 1
 
- | Day | Type | Set   | Exe          | Target | Rest      | Instruction |
- |-----+------+-------+--------------+--------+-----------+-------------|
- |   0 | INT  | 3x15m | 3+3+3        |   185+ | R@6m;r@3m | Max Power   |
- |   1 | SPR  | 3     | 20s          |   195+ |           |             |
- |   2 | INT  | 8x5m  |              |   180+ | R@5m      |             |
- |   3 | UDF  | NA    | 60m          |   155+ | -         | Rest        |
- |   4 | INT  | 3x20m | 5*(1+3(qua)) |    180 | R@10@     |             |
+ | Day | Type | Set   | Exe          | Target (Watts) | Target (HR) | Rest      | Instruction |
+ |-----+------+-------+--------------+----------------+-------------+-----------+-------------|
+ |   0 | INT  | 3x15m | 3+3+3        |                |        185+ | R@6m;r@3m | Max Power   |
+ |   1 | SPR  | 3     | 20s          |                |        195+ |           |             |
+ |   2 | INT  | 8x5m  |              |                |        180+ | R@5m      |             |
+ |   3 | UDF  | NA    | 60m          |                |        155+ | -         | Rest        |
+ |   4 | INT  | 3x20m | 5*(1+3(qua)) |                |         180 | R@10@     |             |
 
 *** FTP test 
 
@@ -43,3 +46,26 @@
      | 6 cool down | 5m   |       |
      #+TBLFM: $3=$oldFTP +15::@4$3=$oldFTP::@5$3=130::@7$3=130::@8$3=$oldFTP + 20::@10$3=$oldFTP * 1.1
      
+
+** problem to solve
+
+   Fang Mountain +3
+
+          1.1
+         /\
+        /  \
+   ----/    \
+
+   .95       .95
+   
+   Each of the sub-set consists 3 subsections. In subsection, it is a
+   3 minutes period. However, the power is not a constant during this
+   period. Another issue is that the power meter shows the average
+   power, so a conversion must be applied.
+
+   - use interval timer to record 3 mins as a whole
+
+     The best method is to tell the user for the next 20 second,
+     what is the target power.
+
+   
