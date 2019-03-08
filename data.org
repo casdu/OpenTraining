@@ -5,16 +5,24 @@
 
 *** Week 0
 
- | Day | Type | Set   |   Exe | Target (Watts) | Target (HR) | Rest | Instruction                  |
- |-----+------+-------+-------+----------------+-------------+------+------------------------------|
- |   0 | FTP  | NA    |       |                |             |      |                              |
- |   1 | UDF  | NA    |       |            212 |         150 |      | 90m                          |
- |   2 | INT  | 7x5m  |       |            286 |         185 | 5m   |                              |
- |   3 | UDF  | NA    |       |                |         150 |      | 75m                          |
- |   4 | INT  | 6x9m  | 3+3+3 |                |        180+ | 6m   | 1 (easy)+ 1 (full) +1 (easy) |
- |   5 | INT  | 3x20m |       |                |         170 | 15m  |                              |
- #+TBLFM: @3$5=$currentFTP * .80;%.0f
- #+TBLFM: @4$5=$currentFTP * 1.08;%.0f
+ | Day | Type | Set   |     | SubSet | SubSet Ins | Rest | Instruction                  |
+ |-----+------+-------+-----+--------+------------+------+------------------------------|
+ |   0 | FTP  | NA    |     | -      | -          | -    | -                            |
+ |   1 | UDF  | NA    |   - | -      | -          | -    | 90m                          |
+ |   2 | INT  | 7x5m  | 286 | -      | -          | 5m   | Constant                     |
+ |   3 | UDF  | NA    |   - | -      | -          | -    | 75m                          |
+ |   4 | INT  | 6x9m  | @R6 | 3x3m   |            | 6m   | 1 (easy)+ 1 (full) +1 (easy) |
+ |     |      |       |     |        | TBD        | -    | See problem to solve         |
+ |     |      |       |     |        | TBD        | -    |                              |
+ |     |      |       |     |        | TBD        | -    |                              |
+ |   5 | INT  | 3x20m |   - | -      | -          | 15m  | Inbetween set diff           |
+ |     |      |       | 233 |        |            |      |                              |
+ |     |      |       | 244 |        |            |      |                              |
+ |     |      |       | 236 |        |            |      |                              |
+ #+TBLFM: @4$4=$currentFTP * 1.08;%.0f
+ #+TBLFM: @8$4=$currentFTP * .88;%.0f
+ #+TBLFM: @9$4=$currentFTP * .92;%.0f
+ #+TBLFM: @10$4=$currentFTP * .89;%.0f
 
 *** Week 1
 
@@ -49,7 +57,7 @@
 
 ** problem to solve
 
-   Fang Mountain +3
+   Fang Mountain +3, i.e. Week 0 Day 4
 
           1.1
          /\
