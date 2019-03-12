@@ -2,7 +2,7 @@
 #+CONSTANTS: currentFTP=265
 
 ** General Build
-
+   
 *** Week 0
 
  | Day | Type | Set   |     | SubSet | SubSet Ins | Rest | Instruction                  |
@@ -12,17 +12,20 @@
  |   2 | INT  | 7x5m  | 286 | -      | -          | 5m   | Constant                     |
  |   3 | UDF  | NA    |   - | -      | -          | -    | 75m                          |
  |   4 | INT  | 6x9m  | @R6 | 3x3m   |            | 6m   | 1 (easy)+ 1 (full) +1 (easy) |
- |     |      |       |     |        | TBD        | -    | See problem to solve         |
- |     |      |       |     |        | TBD        | -    |                              |
- |     |      |       |     |        | TBD        | -    |                              |
+ |     |      |       |     |        | 252        | -    | See problem to solve         |
+ |     |      |       |     |        | 262        | -    |                              |
+ |     |      |       |     |        | 265        | -    |                              |
  |   5 | INT  | 3x20m |   - | -      | -          | 15m  | Inbetween set diff           |
  |     |      |       | 233 |        |            |      |                              |
  |     |      |       | 244 |        |            |      |                              |
  |     |      |       | 236 |        |            |      |                              |
  #+TBLFM: @4$4=$currentFTP * 1.08;%.0f
- #+TBLFM: @8$4=$currentFTP * .88;%.0f
- #+TBLFM: @9$4=$currentFTP * .92;%.0f
- #+TBLFM: @10$4=$currentFTP * .89;%.0f
+ #+TBLFM: @8$4=$currentFTP * 0.88;%.0f
+ #+TBLFM: @9$4=$currentFTP * 0.92;%.0f
+ #+TBLFM: @10$4=$currentFTP * 0.89;%.0f
+ #+TBLFM: @7$6=$currentFTP * 0.95;%.0f
+ #+TBLFM: @8$6=$currentFTP * (1.1 -0.95) / 4 + $currentFTP * 0.95;%.0f
+ #+TBLFM: @9$6=$currentFTP * (1.1 -0.95) / 3 + $currentFTP * 0.95;%.0f
 
 *** Week 1
 
@@ -76,4 +79,31 @@
      The best method is to tell the user for the next 20 second,
      what is the target power.
 
+*** solution to this tri issue
+
+
+         /
+   -----/- 
+   ----/ | 
+
+    At the end of the first part power goes up:
+
+    ( the average power from the begining of power ) * 2
+    
+       = ( power difference between the top and the bottom ) * 1 * 1/2 
    
+    Using the area priciple, i.e. the area of triangle equals to the
+    rectangle.
+
+    So the power target at the end of that peak should be:
+
+    target power = ( 1.1 - 0.95 ) * .95 / 4
+
+    This will tell the user that s/he should put the target power for
+    next 20 seconds. So, s/he would have 3 check points during the
+    power surge.
+
+    Therefore, the following section, i.e. the power down-ward period,
+    the user should have a target number:
+
+    target power = ( 1.1 - 0.95 ) * .95 / 3
