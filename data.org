@@ -54,7 +54,7 @@
     #+TBLFM: @6$6=$currentFTP*1.169;%.0f
 
 **** instaneous power converted to average power
-
+     
      
      -----
           \
@@ -84,16 +84,18 @@
 
      |   x | ratio to FTP | Power |
      |-----+--------------+-------|
-     |  60 |        0.966 |   318 |
-     |  80 |        0.729 |   316 |
-     | 100 |        0.593 |   313 |
-     | 120 |        0.508 |   310 |
-     #+TBLFM: $2= ($1 ^2 - 120 $1 + 73140)/(1200 * $1) ;%.3f
+     |  60 |        0.950 |   254 |
+     |  80 |        0.992 |   265 |
+     | 100 |        1.083 |   289 |
+     | 120 |        1.200 |   320 |
+     #+TBLFM: $2= ($1^2 - 6 $1 + 3600)/(120 $1) ;%.3f
+     #+TBLFM: $3= $2 * $currentFTP;%.0f
 
-     
+     C:
 
-*** FTP test 
+     D:
 
+*** FTP test
 **** test matrix
      
      | set         | time | Power |
@@ -167,3 +169,6 @@
     the user should have a target number:
 
     target power = ( 1.1 - 0.95 ) * .95 / 3
+
+*** tools
+    - math https://www.wolframalpha.com/input/?i=1%2B1&wal=header
