@@ -5,27 +5,27 @@
    
 *** Week 0
 
- | Day | Type | Set   |     | SubSet | SubSet Ins | Rest | Instruction                  |
- |-----+------+-------+-----+--------+------------+------+------------------------------|
- |   0 | FTP  | NA    |     | -      | -          | -    | -                            |
- |   1 | UDF  | NA    |   - | -      | -          | -    | 90m                          |
- |   2 | INT  | 7x5m  | 288 | -      | -          | 5m   | Constant                     |
- |   3 | UDF  | NA    |   - | -      | -          | -    | 75m                          |
- |   4 | INT  | 6x9m  | @R6 | 3x3m   |            | 6m   | 1 (easy)+ 1 (full) +1 (easy) |
- |     |      |       |     |        | 254        | -    | See problem to solve         |
- |     |      |       |     |        | 264        | -    |                              |
- |     |      |       |     |        | 267        | -    |                              |
- |   5 | INT  | 3x20m |   - | -      | -          | 15m  | Inbetween set diff           |
- |     |      |       | 235 |        |            |      |                              |
- |     |      |       | 246 |        |            |      |                              |
- |     |      |       | 238 |        |            |      |                              |
- #+TBLFM: @4$4=$currentFTP * 1.08;%.0f
- #+TBLFM: @11$4=$currentFTP * 0.88;%.0f
- #+TBLFM: @12$4=$currentFTP * 0.92;%.0f
- #+TBLFM: @13$4=$currentFTP * 0.89;%.0f
- #+TBLFM: @7$6=$currentFTP * 0.95;%.0f
- #+TBLFM: @8$6=$currentFTP * (1.1 -0.95) / 4 + $currentFTP * 0.95;%.0f
- #+TBLFM: @9$6=$currentFTP * (1.1 -0.95) / 3 + $currentFTP * 0.95;%.0f
+    | Day | Type | Set   |     | SubSet | SubSet Ins | Rest | Instruction                  |
+    |-----+------+-------+-----+--------+------------+------+------------------------------|
+    |   0 | FTP  | NA    |     | -      | -          | -    | -                            |
+    |   1 | UDF  | NA    |   - | -      | -          | -    | 90m                          |
+    |   2 | INT  | 7x5m  | 288 | -      | -          | 5m   | Constant                     |
+    |   3 | UDF  | NA    |   - | -      | -          | -    | 75m                          |
+    |   4 | INT  | 6x9m  | @R6 | 3x3m   |            | 6m   | 1 (easy)+ 1 (full) +1 (easy) |
+    |     |      |       |     |        | 254        | -    | See problem to solve         |
+    |     |      |       |     |        | 264        | -    |                              |
+    |     |      |       |     |        | 267        | -    |                              |
+    |   5 | INT  | 3x20m |   - | -      | -          | 15m  | Inbetween set diff           |
+    |     |      |       | 235 |        |            |      |                              |
+    |     |      |       | 246 |        |            |      |                              |
+    |     |      |       | 238 |        |            |      |                              |
+    #+TBLFM: @4$4=$currentFTP * 1.08;%.0f
+    #+TBLFM: @11$4=$currentFTP * 0.88;%.0f
+    #+TBLFM: @12$4=$currentFTP * 0.92;%.0f
+    #+TBLFM: @13$4=$currentFTP * 0.89;%.0f
+    #+TBLFM: @7$6=$currentFTP * 0.95;%.0f
+    #+TBLFM: @8$6=$currentFTP * (1.1 -0.95) / 4 + $currentFTP * 0.95;%.0f
+    #+TBLFM: @9$6=$currentFTP * (1.1 -0.95) / 3 + $currentFTP * 0.95;%.0f
 
 *** Week 1
 
@@ -48,7 +48,9 @@
     |     |      |       | 233  |        |            |      |                    |
     |     |      |       | 244  |        |            |      |                    |
     |     |      |       | 236  |        |            |      |                    |
-    #+TBLFM: @4$6=$currentFTP * 1.2;%.0f::@8$4=$currentFTP * 1.08;%.0f::@11$6=$currentFTP * 0.95;%.0f
+    #+TBLFM: @4$6=$currentFTP * 1.2;%.0f
+    #+TBLFM: @8$4=$currentFTP * 1.08;%.0f
+    #+TBLFM: @11$6=$currentFTP * 0.95;%.0f
     #+TBLFM: @6$6=$currentFTP*1.169;%.0f
 
 **** instaneous power converted to average power
