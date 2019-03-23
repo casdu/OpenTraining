@@ -45,7 +45,7 @@
     |     |      |       |      |        |        267 | -    |                    |
     |     |      |       |      |        |        267 | -    |                    |
     |   5 | INT  | 3x30m | R5   | -      |          - | 15m  | inbetween set diff |
-    |     |      |       |      | 2x15m  |        227 |      | constant           |
+    |     |      |       |      | 2x15m  |        227 |  1m  | constant           |
     |     |      |       |      |        |            |      |                    |
     |     |      |       |      |        |            |      |                    |
     #+TBLFM: @4$6=$currentFTP * 1.2;%.0f
