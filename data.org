@@ -45,9 +45,8 @@
     |     |      |       |      |        |        267 | -    |                    |
     |     |      |       |      |        |        267 | -    |                    |
     |   5 | INT  | 3x30m | R5   | -      |          - | 15m  | inbetween set diff |
-    |     |      |       |      | 2x15m  |        227 |  1m  | constant           |
-    |     |      |       |      |        |            |      |                    |
-    |     |      |       |      |        |            |      |                    |
+    |     |      |       |      | 2x15m  |        227 | 1m   | constant           |
+
     #+TBLFM: @4$6=$currentFTP * 1.2;%.0f
     #+TBLFM: @8$4=$currentFTP * 1.08;%.0f
     #+TBLFM: @11$6=$currentFTP * 0.95;%.0f
@@ -57,6 +56,29 @@
     #+TBLFM: @13$6=$currentFTP * 1.00;%.0f
     #+TBLFM: @14$6=$currentFTP * 1.00;%.0f
     #+TBLFM: @16$6=$currentFTP * .85;%.0f
+
+*** Week 3
+
+    | Day | Type | Set   | Target | Rest | SubSet      | SubSet Ins | Rest | Instruction |
+    |-----+------+-------+--------+------+-------------+------------+------+-------------|
+    |   0 | INT  | 3     | -      | R5   | 3x2.5m      |        320 | 4m   | Constant    |
+    |   1 | UDF  | NA    | -      | -    | -           |          - | -    | 90m         |
+    |   2 | INT  | 6x7m  | 283    | R7   | -           |          - | -    | -           |
+    |   3 | UDF  | NA    | -      | -    | -           |          - | -    | 60m         |
+    |   4 | INT  | 3     | -      | R10  | 5x(1+1+1+1) |            | -    | -           |
+    |     |      |       |        |      |             |        254 |      |             |
+    |     |      |       |        |      |             |        260 |      |             |
+    |     |      |       |        |      |             |        267 |      |             |
+    |     |      |       |        |      |             |        267 |      |             |
+    |   5 | INT  | 4x18m | R5     | R7   | 3x6m        |            | 1m   |             |
+    |     |      |       |        |      |             |        243 |      |             |
+    #+TBLFM: @2$7=$currentFTP * 1.2;%.0f
+    #+TBLFM: @4$4=$currentFTP * 1.06;%.0f
+    #+TBLFM: @7$7=$currentFTP * .95;%.0f
+    #+TBLFM: @8$7=$currentFTP * .975;%.0f
+    #+TBLFM: @9$7=$currentFTP * 1.00;%.0f
+    #+TBLFM: @10$7=$currentFTP * 1.00;%.0f
+    #+TBLFM: @12$7=$currentFTP * .91;%.0f
 
 **** instaneous power converted to average power
 
