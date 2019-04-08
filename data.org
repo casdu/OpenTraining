@@ -1,4 +1,4 @@
-#+CONSTANTS: oldFTP=260
+#+CONSTANTS: oldFTP=267
 #+CONSTANTS: currentFTP=267
 
 ** General Build
@@ -166,15 +166,15 @@
      
      | set         | time | Power |
      |-------------+------+-------|
-     | 0 warm-up   | 10 m |   156 |
+     | 0 warm-up   | 10 m |   160 |
      | 1 wapr-up+  | 5 m  |       |
-     | --> 1.1     | 1 m  |   260 |
+     | --> 1.1     | 1 m  |   267 |
      | --> 1.2     | 1 m  |   130 |
      | --> 1.3     | 1 m  |   275 |
      | --> 1.4     | 1 m  |   130 |
-     | --> 1.5     | 1 m  |   280 |
+     | --> 1.5     | 1 m  |   287 |
      | 2 rest      | 5 m  |       |
-     | 3 de-       | 5 m  |   286 |
+     | 3 de-       | 5 m  |   294 |
      | 4 rest      | 5 m  |       |
      | 5 test      | 20 m |       |
      | 6 cool down | 5 m  |       |
