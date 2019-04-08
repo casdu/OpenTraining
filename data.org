@@ -46,7 +46,6 @@
     |     |      |       |      |        |        267 | -    |                    |
     |   5 | INT  | 3x30m | R5   | -      |          - | 15m  | inbetween set diff |
     |     |      |       |      | 2x15m  |        227 | 1m   | constant           |
-
     #+TBLFM: @4$6=$currentFTP * 1.2;%.0f
     #+TBLFM: @8$4=$currentFTP * 1.08;%.0f
     #+TBLFM: @11$6=$currentFTP * 0.95;%.0f
@@ -71,7 +70,6 @@
     |     |      |       |        |      |             |        267 |      |             |
     |     |      |       |        |      |             |        267 |      |             |
     |   5 | INT  | 4x18m | 243    | R7   | 3x6m        |            | 1m   |             |
-
     #+TBLFM: @2$7=$currentFTP * 1.2;%.0f
     #+TBLFM: @4$4=$currentFTP * 1.06;%.0f
     #+TBLFM: @7$7=$currentFTP * .95;%.0f
@@ -80,8 +78,7 @@
     #+TBLFM: @10$7=$currentFTP * 1.00;%.0f
     #+TBLFM: @11$4=$currentFTP * .91;%.0f
 
-**** instaneous power converted to average power
-
+**** instantaneously power converted to average power
 
        A    B
 
@@ -146,6 +143,24 @@
      #+TBLFM: $3= $2 * $currentFTP;%.0f
 
 
+*** Week 3
+
+    Rest week. No intense workout.
+
+*** Week 4
+
+    | Day | Type | Set   | Target | Rest | SubSet  | SubSet Ins | Rest | Instruction   |
+    |-----+------+-------+--------+------+---------+------------+------+---------------|
+    |   0 | FTP  | -     | -      | -    | -       | -          | -    | -             |
+    |   1 | UDF  | NA    | -      | -    | -       | -          | -    | 90m           |
+    |   2 | INT  | 4x9m  | 280    | R7   | -       | -          | -    | -             |
+    |   3 | UDF  | NA    | -      | -    | -       | -          | -    | 90m           |
+    |   4 | INT  | 6x10m | 264    | R5   |         | -          | -    | try your best |
+    |   5 | INT  | 3x30m | 227    | R5   | 15+1+15 | -          | 1m   |               |
+    #+TBLFM: @4$4=$currentFTP * 1.05;%.0f
+    #+TBLFM: @6$4=$currentFTP * 0.99;%.0f
+    #+TBLFM: @7$4=$currentFTP * 0.85;%.0f
+
 *** FTP test
 **** test matrix
      
@@ -171,7 +186,7 @@
      #+TBLFM: @10$3=$oldFTP * 1.1;%.0f
      
      
-** problem to solve
+** problem solved
 
    Fang Mountain +3, i.e. Week 0 Day 4
 
