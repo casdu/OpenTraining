@@ -78,7 +78,7 @@
     #+TBLFM: @10$7=$currentFTP * 1.00;%.0f
     #+TBLFM: @11$4=$currentFTP * .91;%.0f
 
-**** instantaneously power converted to average power
+**** instantaneous power converted to average power
 
        A    B
 
