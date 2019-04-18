@@ -161,6 +161,26 @@
     #+TBLFM: @6$4=$currentFTP * 0.99;%.0f
     #+TBLFM: @7$4=$currentFTP * 0.85;%.0f
 
+
+*** Week 5
+
+    | Day | Type | Set   | Target | Rest | SubSet | SubSet Ins | Rest | Instruction |
+    |-----+------+-------+--------+------+--------+------------+------+-------------|
+    |   0 | INT  | 3     | -      | R8   | 3x3m   | 315        | 5m   | VO2MAX      |
+    |     |      |       |        |      |        | 307        |      |             |
+    |     |      |       |        |      |        | 299        |      |             |
+    |   1 | UDF  | NA    | -      | -    | -      | -          | -    | 90m         |
+    |   2 | INT  | 5x8m  | 280    | R8   | -      | -          | -    | Constant    |
+    |   3 | UDF  | NA    | -      | -    | -      | -          | -    | 60m         |
+    |   4 | INT  | 5x12m | 264    | R5   | -      | -          | -    | Constant    |
+    |   5 | INT  | 4x18m | 246    | R7   | 3x6m   | -          | 2m   | Constant    |
+    #+TBLFM: @2$7=$currentFTP * 1.18;%.0f
+    #+TBLFM: @3$7=$currentFTP * 1.15;%.0f
+    #+TBLFM: @4$7=$currentFTP * 1.12;%.0f
+    #+TBLFM: @6$4=$currentFTP * 1.05;%.0f
+    #+TBLFM: @8$4=$currentFTP * .99;%.0f
+    #+TBLFM: @9$4=$currentFTP * .92;%.0f
+
 *** FTP test
 **** test matrix
      
