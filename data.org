@@ -187,12 +187,12 @@
     |-----+------+-------+--------+------+--------+------------+------+-------------|
     |   0 | INT  | 2     | -      | R4   | 3x2m   | 334        | 2m   | VO2MAX      |
     |   1 | UDF  | NA    | -      | -    | -      | -          | -    | 90m         |
-    |   2 | INT  | 4x10m | 280    | R8   | -      | 280        | -    | Constant    |
+    |   2 | INT  | 4x10m | 280    | R8   | -      | -          | -    | Constant    |
     |   3 | UDF  | NA    | -      | -    | -      | -          | -    | 60m         |
     |   4 | INT  | 4x15m | 264    | R10  | -      | -          | -    | Constant    |
     |   5 | INT  | 4x20m | 254    | R5   | -      | -          | -    | Constant    |
     #+TBLFM: @2$7=$currentFTP * 1.25;%.0f
-    #+TBLFM: @4$7=$currentFTP * 1.05;%.0f
+    #+TBLFM: @4$4=$currentFTP * 1.05;%.0f
     #+TBLFM: @6$4=$currentFTP * .99;%.0f
     #+TBLFM: @7$4=$currentFTP * .95;%.0f
 
