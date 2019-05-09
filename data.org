@@ -225,10 +225,10 @@
 
     | Day | Type | Set   | Target | Rest | SubSet | SubSet Ins | Rest | Instruction    |
     |-----+------+-------+--------+------+--------+------------+------+----------------|
-    |   1 | INT  | 3     |      - | 5m   | 3x2m   | 334        | 2m   | VO2MAX         |
+    |   1 | INT  | 3     |      - | 5m   | 3x3m   | 334        | 3m   | VO2MAX         |
     |   2 | INT  | 5x8m  |    280 | 8m   | -      | -          | -    | Suprathreshold |
     |   3 | INT  | 4x10m |    254 | 8m   | -      | -          | -    | Sweet Spot     |
-    |   4 | INT  | 3     |      - | 5m   | 3x3m   | 334        | 2m   | VO2MAX         |
+    |   4 | INT  | 3     |      - | 5m   | 3x2m   | 334        | 2m   | VO2MAX         |
     |   5 | INT  | 8x6m  |    280 | 6m   | -      | -          | -    | Suprathreshold |
     |   6 | INT  | 4x20m |    248 | 10m  | -      | -          | -    | Sweet Spot     |
     #+TBLFM: @2$7=$currentFTP * 1.25;%.0f
