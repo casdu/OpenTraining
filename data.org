@@ -197,30 +197,6 @@
 
     Recover week. No intense training. Just do smelling-nice-flowers ridings.
 
-*** FTP test
-**** test matrix
-     
-     | set         | time | Power |
-     |-------------+------+-------|
-     | 0 warm-up   | 10 m |   160 |
-     | 1 wapr-up+  | 5 m  |     - |
-     | --> 1.1     | 1 m  |   267 |
-     | --> 1.2     | 1 m  |   130 |
-     | --> 1.3     | 1 m  |   275 |
-     | --> 1.4     | 1 m  |   130 |
-     | --> 1.5     | 1 m  |   287 |
-     | 2 rest      | 5 m  |     - |
-     | 3 de-       | 5 m  |   294 |
-     | 4 rest      | 5 m  |     - |
-     | 5 test      | 20 m |     - |
-     | 6 cool down | 5 m  |     - |
-     #+TBLFM: @2$3=$oldFTP * .6;%.0f
-     #+TBLFM: @4$3=$oldFTP;%.0f
-     #+TBLFM: @5$3=130;%.0f
-     #+TBLFM: @7$3=130;%.0f
-     #+TBLFM: @8$3=$oldFTP + 20;%.0f
-     #+TBLFM: @10$3=$oldFTP * 1.1;%.0f
-
 *** dead-hard-extension
 
     | Day | Type | Set   | Target | Rest | SubSet | SubSet Ins | Rest | Instruction    |
@@ -237,6 +213,31 @@
     #+TBLFM: @5$7=$currentFTP * 1.25;%.0f
     #+TBLFM: @6$4=$currentFTP * 1.05;%.0f
     #+TBLFM: @7$4=$currentFTP * .93;%.0f
+
+
+** FTP test
+*** test matrix
+   
+    | set         | time | Power |
+    |-------------+------+-------|
+    | 0 warm-up   | 10 m |   160 |
+    | 1 wapr-up+  | 5 m  |     - |
+    | --> 1.1     | 1 m  |   267 |
+    | --> 1.2     | 1 m  |   130 |
+    | --> 1.3     | 1 m  |   275 |
+    | --> 1.4     | 1 m  |   130 |
+    | --> 1.5     | 1 m  |   287 |
+    | 2 rest      | 5 m  |     - |
+    | 3 de-       | 5 m  |   294 |
+    | 4 rest      | 5 m  |     - |
+    | 5 test      | 20 m |     - |
+    | 6 cool down | 5 m  |     - |
+    #+TBLFM: @2$3=$oldFTP * .6;%.0f
+    #+TBLFM: @4$3=$oldFTP;%.0f
+    #+TBLFM: @5$3=130;%.0f
+    #+TBLFM: @7$3=130;%.0f
+    #+TBLFM: @8$3=$oldFTP + 20;%.0f
+    #+TBLFM: @10$3=$oldFTP * 1.1;%.0f
 
 ** problem solved
 
