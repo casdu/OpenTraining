@@ -215,6 +215,21 @@
     #+TBLFM: @7$4=$currentFTP * .93;%.0f
 
 
+** Climb
+
+*** Week 0
+    | Day | Type | Set   | Rest | SubSet | SubSet Ins | Rest | Instruction                               |
+    |-----+------+-------+------+--------+------------+------+-------------------------------------------|
+    |   0 | FTP  | -     |      | -      | -          | -    | -                                         |
+    |   1 | UDF  | -     |    - | -      | -          | -    | 90m                                       |
+    |   2 | INT  | 10x3m |  280 | -      | -          | 3m   | constant                                  |
+    |   3 | UDF  | -     |    - | -      | -          | -    | 75m                                       |
+    |   4 | I+S  | 5x9m  |  240 | -      | -          | 4m   | 3 all-out-effort springs at begin and end |
+    |   5 | INT  | 5x15m |  246 | -      | -          | 7m   | -                                         |
+    #+TBLFM: @4$4=$currentFTP * 1.05;%.0f
+    #+TBLFM: @6$4=$currentFTP * 0.9;%.0f
+    #+TBLFM: @7$4=$currentFTP * 0.92;%.0f
+
 ** FTP test
 *** test matrix
    
