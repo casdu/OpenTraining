@@ -230,6 +230,37 @@
     #+TBLFM: @6$4=$currentFTP * 0.9;%.0f
     #+TBLFM: @7$4=$currentFTP * 0.92;%.0f
 
+*** Week 1
+    | Day | Type  |   Set | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                               |
+    |-----+-------+-------+-------------+--------+------------+------+-------------------------------------------|
+    |   0 | I+s   |     4 |          4m | -      | -          | -    | -                                         |
+    |   - | sub1  |  2:30 |         240 | 30s    | 360        | 1m   | -                                         |
+    |   - | sub2  |  2:00 |         267 | 60s    | 331        | 1m   | -                                         |
+    |   - | sub3  |  1:15 |         280 | 15s    | 347        | -    | -                                         |
+    |   - | sub3+ |  1:15 |         294 | 15s    | 374        | -    | -                                         |
+    |   - | warm  |   320 |         334 | 347    | 374        |      | 30s rest; 1 and 2 30s; 3 and 4 15s load   |
+    |   1 | UDF   |     - |           - | -      | -          | -    | 60m                                       |
+    |   2 | INT   |  8x4m |         286 | -      | -          | 4m   | constant                                  |
+    |   3 | UDF   |     - |           - | -      | -          | -    | 60m                                       |
+    |   4 | I+S   |  5x9m |         240 | -      | -          | 4m   | 3 all-out-effort springs at begin and end |
+    |   5 | INT   | 7x10m |         248 | -      | -          | 5m   | -                                         |
+    #+TBLFM: @3$4=$currentFTP * .9;%.0f
+    #+TBLFM: @3$6=$currentFTP * 1.35;%.0f
+    #+TBLFM: @4$4=$currentFTP * 1.0;%.0f
+    #+TBLFM: @5$4=$currentFTP * 1.05;%.0f
+    #+TBLFM: @3$4=$currentFTP * 1.25;%.0f
+    #+TBLFM: @5$6=$currentFTP * 1.3;%.0f
+    #+TBLFM: @6$4=$currentFTP * 1.1;%.0f
+    #+TBLFM: @6$6=$currentFTP * 1.4;%.0f
+    #+TBLFM: @7$4=$currentFTP * 0.92;%.0f
+    #+TBLFM: @7$3=$currentFTP * 1.2;%.0f
+    #+TBLFM: @7$4=$currentFTP * 1.25;%.0f
+    #+TBLFM: @7$5=$currentFTP * 1.3;%.0f
+    #+TBLFM: @7$6=$currentFTP * 1.4;%.0f
+    #+TBLFM: @9$4=$currentFTP * 1.07;%.0f
+    #+TBLFM: @11$4=$currentFTP * .9;%.0f
+    #+TBLFM: @12$4=$currentFTP * .93;%.0f
+
 ** FTP test
 *** test matrix
    
