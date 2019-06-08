@@ -269,14 +269,14 @@
     |   1 | UDF  | -     | -           | -      | -          | -    | 60m                                     |
     |   2 | INT  | 7x5m  | 291         | -      | -          | 5m   | constant                                |
     |   3 | UDF  | -     | -           | -      | -          | -    | 60m                                     |
-    |   4 | I+S  | 7x10m | 254         | -      | -          | 4m   | 3 all-out-effort springs at 1~3 and 4~7 |
+    |   4 | I+S  | 7x10m | 246         | -      | -          | 4m   | 3 all-out-effort springs at 1~3 and 4~7 |
     |   5 | INT  | 4x18m | -           | -      | -          | 7m   | -                                       |
-    |   - | -    |       | 246         | 3x6m   | -          | 1m   | -                                       |
+    |   - | -    |       | 240         | 3x6m   | -          | 1m   | -                                       |
     #+TBLFM: @3$4=$currentFTP * 1.25;%.0f
     #+TBLFM: @3$6=$currentFTP * 1.05;%.0f
     #+TBLFM: @5$4=$currentFTP * 1.09;%.0f
-    #+TBLFM: @7$4=$currentFTP * .95;%.0f
-    #+TBLFM: @9$4=$currentFTP * .92;%.0f
+    #+TBLFM: @7$4=$currentFTP * .92;%.0f
+    #+TBLFM: @9$4=$currentFTP * .90;%.0f
 
 ** FTP test
 *** test matrix
