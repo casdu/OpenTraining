@@ -278,6 +278,10 @@
     #+TBLFM: @7$4=$currentFTP * .92;%.0f
     #+TBLFM: @9$4=$currentFTP * .90;%.0f
 
+*** Week 3
+    Rest week;
+    Day 2 do 2 all-out-effort-20-second spring;
+    Day 4 do 3 all-out-effort-20-second spring;
 ** FTP test
 *** test matrix
    
