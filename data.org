@@ -214,10 +214,10 @@
     #+TBLFM: @6$4=$currentFTP * 1.05;%.0f
     #+TBLFM: @7$4=$currentFTP * .93;%.0f
 
-
 ** Climb
 
 *** Week 0
+
     | Day | Type | Set   | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                               |
     |-----+------+-------+-------------+--------+------------+------+-------------------------------------------|
     |   0 | FTP  | -     | -           | -      | -          | -    | -                                         |
@@ -231,6 +231,7 @@
     #+TBLFM: @7$4=$currentFTP * 0.92;%.0f
 
 *** Week 1
+
     | Day | Type  |   Set | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                               |
     |-----+-------+-------+-------------+--------+------------+------+-------------------------------------------|
     |   0 | I+s   |     4 |          4m | -      | -          | -    | -                                         |
@@ -262,6 +263,7 @@
     #+TBLFM: @12$4=$currentFTP * .93;%.0f
 
 *** Week 2
+
     | Day | Type | Set   | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                             |
     |-----+------+-------+-------------+--------+------------+------+-----------------------------------------|
     |   0 | I+s  | 11    | 4m          | -      | -          | -    | -                                       |
@@ -279,9 +281,36 @@
     #+TBLFM: @9$4=$currentFTP * .90;%.0f
 
 *** Week 3
+
     Rest week;
     Day 2 do 2 all-out-effort-20-second spring;
     Day 4 do 3 all-out-effort-20-second spring;
+
+*** Week 4
+    
+    | Day | Type | Set   | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                        |
+    |-----+------+-------+-------------+--------+------------+------+------------------------------------|
+    |   0 | I+s  | 5x10m | 251         | -      |          - | 3m   | 4x8 seconds spring @2m in each set |
+    |   1 | UDF  | -     | -           | -      |          - | -    | 90m                                |
+    |   2 | INT  | 5x9m  | 254         | 1m     |        312 | 5m   | Do Subset two times with main set  |
+    |   3 | UDF  | -     | -           | -      |          - | -    | 60m                                |
+    |   4 | I    | -     | 5m          | -      |          - | -    | See SubSet                         |
+    |   - | I    | -     | -           | 2x7m   |     272.34 | 5m   | -                                  |
+    |   - | I    | -     | -           | 3x5m   |     280.35 | 4m   | -                                  |
+    |   - | I    | -     | -           | 3x3m   |     288.36 | 3m   | -                                  |
+    |   - | I    | -     | -           | 3x2m   |     299.04 | 2m   | -                                  |
+    |   - | I    | -     | -           | 3x1m   |     307.05 | 1m   | -                                  |
+    |   5 | INT  | 3x20m | 245.64      | 2x10   |          - | 1m   | Constant                           |
+    #+TBLFM: @2$4=$currentFTP*.94;%.0f
+    #+TBLFM: @4$4=$currentFTP.95;%.0f
+    #+TBLFM: @4$6=$currentFTP*1.17;%.0f
+    #+TBLFM: @7$6=$currentFTP * 1.02
+    #+TBLFM: @8$6=$currentFTP * 1.05
+    #+TBLFM: @9$6=$currentFTP * 1.08
+    #+TBLFM: @10$6=$currentFTP * 1.12
+    #+TBLFM: @11$6=$currentFTP * 1.15
+    #+TBLFM: @12$4=$currentFTP * .92
+
 ** FTP test
 *** test matrix
    
