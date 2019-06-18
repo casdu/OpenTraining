@@ -311,6 +311,11 @@
     #+TBLFM: @11$6=$currentFTP * 1.15;%.0f
     #+TBLFM: @12$6=$currentFTP * .92;%.0f
 
+    # Day 0: The real data on road is: .97 .92 .89 1.03 .85 for each
+    # set. Since the rest is short: 3 minutes, it is very push to
+    # hold .94 intense factor for 10 minutes. Suggesting revised to
+    # .92%.
+
 ** FTP test
 *** test matrix
    
