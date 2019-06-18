@@ -295,21 +295,21 @@
     |   2 | INT  | 5x9m  | 254         | 1m     |        312 | 5m   | Do Subset two times with main set  |
     |   3 | UDF  | -     | -           | -      |          - | -    | 60m                                |
     |   4 | I    | -     | 5m          | -      |          - | -    | See SubSet                         |
-    |   - | I    | -     | -           | 2x7m   |     272.34 | 5m   | -                                  |
-    |   - | I    | -     | -           | 3x5m   |     280.35 | 4m   | -                                  |
-    |   - | I    | -     | -           | 3x3m   |     288.36 | 3m   | -                                  |
-    |   - | I    | -     | -           | 3x2m   |     299.04 | 2m   | -                                  |
-    |   - | I    | -     | -           | 3x1m   |     307.05 | 1m   | -                                  |
-    |   5 | INT  | 3x20m | 245.64      | 2x10   |          - | 1m   | Constant                           |
+    |   - | I    | -     | -           | 2x7m   |        272 | 5m   | -                                  |
+    |   - | I    | -     | -           | 3x5m   |        280 | 4m   | -                                  |
+    |   - | I    | -     | -           | 3x3m   |        288 | 3m   | -                                  |
+    |   - | I    | -     | -           | 3x2m   |        299 | 2m   | -                                  |
+    |   - | I    | -     | -           | 3x1m   |        307 | 1m   | -                                  |
+    |   5 | INT  | 3x20m | 246         | 2x10m  |          - | 1m   | Constant                           |
     #+TBLFM: @2$4=$currentFTP*.94;%.0f
     #+TBLFM: @4$4=$currentFTP.95;%.0f
     #+TBLFM: @4$6=$currentFTP*1.17;%.0f
-    #+TBLFM: @7$6=$currentFTP * 1.02
-    #+TBLFM: @8$6=$currentFTP * 1.05
-    #+TBLFM: @9$6=$currentFTP * 1.08
-    #+TBLFM: @10$6=$currentFTP * 1.12
-    #+TBLFM: @11$6=$currentFTP * 1.15
-    #+TBLFM: @12$4=$currentFTP * .92
+    #+TBLFM: @7$6=$currentFTP * 1.02;%.0f
+    #+TBLFM: @8$6=$currentFTP * 1.05;%.0f
+    #+TBLFM: @9$6=$currentFTP * 1.08;%.0f
+    #+TBLFM: @10$6=$currentFTP * 1.12;%.0f
+    #+TBLFM: @11$6=$currentFTP * 1.15;%.0f
+    #+TBLFM: @12$4=$currentFTP * .92;%.0f
 
 ** FTP test
 *** test matrix
