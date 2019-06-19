@@ -195,56 +195,38 @@
 
 *** Week 7
 
-    Recover week. No intense training. Just do smelling-nice-flowers ridings.
+    Recover week. No intense training. Just do easy ridings.
 
-*** dead-hard-extension
-
-    | Day | Type | Set   | Target | Rest | SubSet | SubSet Ins | Rest | Instruction    |
-    |-----+------+-------+--------+------+--------+------------+------+----------------|
-    |   1 | INT  | 3     |      - | 5m   | 3x3m   | 334        | 3m   | VO2MAX         |
-    |   2 | INT  | 5x8m  |    280 | 8m   | -      | -          | -    | Suprathreshold |
-    |   3 | INT  | 4x10m |    254 | 8m   | -      | -          | -    | Sweet Spot     |
-    |   4 | INT  | 3     |      - | 5m   | 3x2m   | 334        | 2m   | VO2MAX         |
-    |   5 | INT  | 8x6m  |    280 | 6m   | -      | -          | -    | Suprathreshold |
-    |   6 | INT  | 4x20m |    248 | 10m  | -      | -          | -    | Sweet Spot     |
-    #+TBLFM: @2$7=$currentFTP * 1.25;%.0f
-    #+TBLFM: @3$4=$currentFTP * 1.05;%.0f
-    #+TBLFM: @4$4=$currentFTP * .95;%.0f
-    #+TBLFM: @5$7=$currentFTP * 1.25;%.0f
-    #+TBLFM: @6$4=$currentFTP * 1.05;%.0f
-    #+TBLFM: @7$4=$currentFTP * .93;%.0f
-
-** Climb
-
+** Climb Hill
 *** Week 0
 
-    | Day | Type | Set   | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                               |
-    |-----+------+-------+-------------+--------+------------+------+-------------------------------------------|
-    |   0 | FTP  | -     | -           | -      | -          | -    | -                                         |
-    |   1 | UDF  | -     | -           | -      | -          | -    | 90m                                       |
-    |   2 | INT  | 10x3m | 280         | -      | -          | 3m   | constant                                  |
-    |   3 | UDF  | -     | -           | -      | -          | -    | 75m                                       |
-    |   4 | I+S  | 5x9m  | 240         | -      | -          | 4m   | 3 all-out-effort springs at begin and end |
-    |   5 | INT  | 5x15m | 246         | -      | -          | 7m   | -                                         |
+    | Day | Type | Set   | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                             |
+    |-----+------+-------+-------------+--------+------------+------+-----------------------------------------|
+    |   0 | FTP  | -     | -           | -      | -          | -    | -                                       |
+    |   1 | UDF  | -     | -           | -      | -          | -    | 90m                                     |
+    |   2 | INT  | 10x3m | 280         | -      | -          | 3m   | constant                                |
+    |   3 | UDF  | -     | -           | -      | -          | -    | 75m                                     |
+    |   4 | I+S  | 5x9m  | 240         | -      | -          | 4m   | 3 all-out-effort springs at BEG and END |
+    |   5 | INT  | 5x15m | 246         | -      | -          | 7m   | -                                       |
     #+TBLFM: @4$4=$currentFTP * 1.05;%.0f
     #+TBLFM: @6$4=$currentFTP * 0.9;%.0f
     #+TBLFM: @7$4=$currentFTP * 0.92;%.0f
 
 *** Week 1
 
-    | Day | Type  |   Set | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                               |
-    |-----+-------+-------+-------------+--------+------------+------+-------------------------------------------|
-    |   0 | I+s   |     4 |          4m | -      | -          | -    | -                                         |
-    |   - | sub1  |  2:30 |         240 | 30s    | 360        | 1m   | -                                         |
-    |   - | sub2  |  2:00 |         267 | 60s    | 331        | 1m   | -                                         |
-    |   - | sub3  |  1:15 |         280 | 15s    | 347        | -    | -                                         |
-    |   - | sub3+ |  1:15 |         294 | 15s    | 374        | -    | -                                         |
-    |   - | warm  |   320 |         334 | 347    | 374        |      | 30s rest; 1 and 2 30s; 3 and 4 15s load   |
-    |   1 | UDF   |     - |           - | -      | -          | -    | 60m                                       |
-    |   2 | INT   |  8x4m |         286 | -      | -          | 4m   | constant                                  |
-    |   3 | UDF   |     - |           - | -      | -          | -    | 60m                                       |
-    |   4 | I+S   |  5x9m |         240 | -      | -          | 4m   | 3 all-out-effort springs at begin and end |
-    |   5 | INT   | 7x10m |         248 | -      | -          | 5m   | -                                         |
+    | Day | Type  |   Set | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                             |
+    |-----+-------+-------+-------------+--------+------------+------+-----------------------------------------|
+    |   0 | I+s   |     4 |          4m | -      | -          | -    | -                                       |
+    |   - | sub1  |  2:30 |         240 | 30s    | 360        | 1m   | -                                       |
+    |   - | sub2  |  2:00 |         267 | 60s    | 331        | 1m   | -                                       |
+    |   - | sub3  |  1:15 |         280 | 15s    | 347        | -    | -                                       |
+    |   - | sub3+ |  1:15 |         294 | 15s    | 374        | -    | -                                       |
+    |   - | warm  |   320 |         334 | 347    | 374        |      | 30s rest; 1 and 2 30s; 3 and 4 15s load |
+    |   1 | UDF   |     - |           - | -      | -          | -    | 60m                                     |
+    |   2 | INT   |  8x4m |         286 | -      | -          | 4m   | constant                                |
+    |   3 | UDF   |     - |           - | -      | -          | -    | 60m                                     |
+    |   4 | I+S   |  5x9m |         240 | -      | -          | 4m   | 3 all-out-effort springs at BEG and END |
+    |   5 | INT   | 7x10m |         248 | -      | -          | 5m   | -                                       |
     #+TBLFM: @3$4=$currentFTP * .9;%.0f
     #+TBLFM: @3$6=$currentFTP * 1.35;%.0f
     #+TBLFM: @4$4=$currentFTP * 1.0;%.0f
@@ -313,11 +295,11 @@
 
     # Day 0: The real data on road is: .97 .92 .89 1.03 .85 for each
     # set. Since the rest is short: 3 minutes, it is very push to
-    # hold .94 intense factor for 10 minutes. Suggesting revised to
-    # .92%.
+    # hold .94 intense factor for 10 minutes. Suggesting revise to
+    # .92.
 
-** FTP test
-*** test matrix
+** FTP Test
+*** Steps
    
     | set         | time | Power |
     |-------------+------+-------|
@@ -339,6 +321,30 @@
     #+TBLFM: @7$3=130;%.0f
     #+TBLFM: @8$3=$oldFTP + 20;%.0f
     #+TBLFM: @10$3=$oldFTP * 1.1;%.0f
+
+** extremely-hard-extension
+
+    | Day | Type | Set   | Target | Rest | SubSet | SubSet Ins | Rest | Instruction    |
+    |-----+------+-------+--------+------+--------+------------+------+----------------|
+    |   1 | INT  | 3     |      - | 5m   | 3x3m   | 334        | 3m   | VO2MAX         |
+    |   2 | INT  | 5x8m  |    280 | 8m   | -      | -          | -    | Suprathreshold |
+    |   3 | INT  | 4x10m |    254 | 8m   | -      | -          | -    | Sweet Spot     |
+    |   4 | INT  | 3     |      - | 5m   | 3x2m   | 334        | 2m   | VO2MAX         |
+    |   5 | INT  | 8x6m  |    280 | 6m   | -      | -          | -    | Suprathreshold |
+    |   6 | INT  | 4x20m |    248 | 10m  | -      | -          | -    | Sweet Spot     |
+    #+TBLFM: @2$7=$currentFTP * 1.25;%.0f
+    #+TBLFM: @3$4=$currentFTP * 1.05;%.0f
+    #+TBLFM: @4$4=$currentFTP * .95;%.0f
+    #+TBLFM: @5$7=$currentFTP * 1.25;%.0f
+    #+TBLFM: @6$4=$currentFTP * 1.05;%.0f
+    #+TBLFM: @7$4=$currentFTP * .93;%.0f
+
+    # This is my personal experiment I did in May 2019. Although I
+    # know my body has its limitation, I want to know how much can I
+    # push. In that real training week, I just cannot continue in
+    # Day 4. I think that the take away message from this experiment
+    # is just to stick with the plan. Rest is as important as the hard
+    # interval sections.
 
 ** problem solved
 
@@ -391,4 +397,5 @@
     target power = ( 1.1 - 0.95 ) * .95 / 3
 
 *** tools
+
     - math https://www.wolframalpha.com/input/?i=1%2B1&wal=header
