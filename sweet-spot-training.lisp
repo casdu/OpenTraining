@@ -1,6 +1,6 @@
-;;; cycling.el --- A cyclist's major-mode in Emacs -*- lexical-binding: t; -*-
+;;; sweet-spot-training.lisp -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2019- 2019
+;; Copyright (C) 2019 - 2019
 
 ;; Author: Ran Wang
 ;; URL:
@@ -8,8 +8,6 @@
 ;; Version:
 ;; Package-Requires:
 ;; Keywords: cycling, training, organizing
-
-;; This file is _not_ part of GNU Emacs
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -25,6 +23,7 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;;
+;;  <2019-06-27 Thu> Since common lisp is such powerful, why not write
+;;  this program in common lisp?
 
 ;;; Code:
