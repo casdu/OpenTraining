@@ -329,6 +329,35 @@
     #
     # replace :: → with ;%.0f::
     # way better to manually tweak.
+
+*** Week 6
+    | Day | Type | Set   | Rest/Target | SubSet | SubSet Ins | Rest | Instruction |
+    |-----+------+-------+-------------+--------+------------+------+-------------|
+    | 0   | I+s  | 5x6   | 7m          | -      | -          | -    | -           |
+    | -   | -    | -     | -           | 1m     | 224        | -    | -           |
+    | -   | -    | -     | -           | 1m     | p-n        | -    | Ramp        |
+    | -   | -    | -     | -           | 1m     | 251        | -    | -           |
+    | -   | -    | -     | -           | 30s    | p-n        | -    | Ramp        |
+    | -   | -    | -     | -           | 1m     | 278        | -    | -           |
+    | -   | -    | -     | -           | 30s    | p-n        | -    | Ramp        |
+    | -   | -    | -     | -           | 30s    | 344        | -    | -           |
+    | -   | -    | -     | -           | 30s    | all-out    | -    | Ramp        |
+    | 1   | UDF  | -     | -           | -      | -          | -    | 60m         |
+    | 2   | INT  | 3x    | 5m          | -      | -          | -    | -           |
+    | -   | INT  | -     | -           | 1m     | 307        | 30s  | -           |
+    | -   | INT  | -     | -           | 2m     | 278        | 30s  | -           |
+    | -   | INT  | -     | -           | 2m     | 254        | 30s  | -           |
+    | -   | INT  | -     | -           | 2m     | 278        | 30s  | -           |
+    | -   | INT  | -     | -           | 2m     | 307        | 30s  | -           |
+    | 3   | UDF  | -     | -           | -      | -          | -    | 60m         |
+    | 4   | I    | 2x7m  | 278         | -      | -          | -    | Rest:4m     |
+    | -   | I    | 2x5m  | 288         | -      | -          | -    | Rest:4m     |
+    | -   | I    | 2x3m  | 304         | -      | -          | -    | Rest:4m     |
+    | -   | I    | 2x2m  | 323         | -      | -          | -    | Rest:4m     |
+    | 5   | INT  | 3x30m | 5m          | -      | 227        | -    | Rest:1m Mid |
+    #+TBLFM: @3$6=.84*$currentFTP;%.0f::@5$6=.92*$currentFTP;%.0f::@7$6=1.04*$currentFTP;%.0f::@9$6=1.29*$currentFTP;%.0f
+    #+TBLFM: @13$6=1.15*$currentFTP;%.0f::@14$6=1.04*$currentFTP;%.0f::@15$6=.95*$currentFTP;%.0f::@16$6=1.04*$currentFTP;%.0f::@17$6=1.15*$currentFTP;%.0f::@19$4=1.04*$currentFTP;%.0f::@20$4=1.08*$currentFTP;%.0f::@21$4=1.14*$currentFTP;%.0f::@22$4=1.21*$currentFTP;%.0f::@23$6=.85*$currentFTP;%.0f
+
 ** FTP Test
 *** Steps
    
