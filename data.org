@@ -1,6 +1,40 @@
 #+CONSTANTS: oldFTP=267
 #+CONSTANTS: currentFTP=267
 
+
+** Base
+*** Week 3
+    | Day | Set    | Target_Low | Target_high | Rest | Instruction |
+    |-----+--------+------------+-------------+------+-------------|
+    | 0   | 3x20m  |        232 |         248 | 7m   | -           |
+    | 1   | 4x15m  |          - |           - | 2m   | -           |
+    | s1  | -      |        200 |         227 | -    | -           |
+    | s2  | -      |        200 |         227 | -    | -           |
+    | s3  | -      |        211 |         238 | -    | -           |
+    | s4  | -      |        211 |         238 | -    | -           |
+    | 2   | 3x20m  |        232 |         248 | 7m   | -           |
+    | 3   | REC    |          - |           - | -    | 60m         |
+    | 4   | 5x15m  |        232 |         248 | 7m   | -           |
+    | 5   | 4 sets |          - |           - | 7m   | -           |
+    | s1  | 9m     |        232 |           - | 2m   | -           |
+    | s2  | 9m     |        232 |           - | 2m   | -           |
+    #+TBLFM: @2$3=$currentFTP * 0.87;%.0f
+    #+TBLFM: @2$4=$currentFTP * 0.93;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.75;%.0f
+    #+TBLFM: @4$4=$currentFTP * 0.85;%.0f
+    #+TBLFM: @5$3=$currentFTP * 0.75;%.0f
+    #+TBLFM: @5$4=$currentFTP * 0.85;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.79;%.0f
+    #+TBLFM: @6$4=$currentFTP * 0.89;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.79;%.0f
+    #+TBLFM: @7$4=$currentFTP * 0.89;%.0f
+    #+TBLFM: @8$3=$currentFTP * 0.87;%.0f
+    #+TBLFM: @8$4=$currentFTP * 0.93;%.0f
+    #+TBLFM: @10$3=$currentFTP * 0.87;%.0f
+    #+TBLFM: @10$4=$currentFTP * 0.93;%.0f
+    #+TBLFM: @12$3=$currentFTP * 0.87;%.0f
+    #+TBLFM: @13$3=$currentFTP * 0.87;%.0f
+
 ** General Build
 *** Week 0
 
@@ -91,7 +125,7 @@
 
      A 45s
      B 75s
-     
+
      |   x | ratio to FTP | Power |
      |-----+--------------+-------|
      |  45 |        1.200 |   320 |
@@ -123,7 +157,7 @@
      | 120 |        0.975 |   260 |
      #+TBLFM: $2= ($1^2 + 1020 $1 + 3600)/(1200 $1) ;%.3f
      #+TBLFM: $3= $2 * $currentFTP;%.0f
- 
+
      C:
 
      |   x | ratio to FTP | Power |
@@ -269,7 +303,7 @@
     Day 4 do 3 all-out-effort-20-second spring;
 
 *** Week 4
-    
+
     | Day | Type | Set   | Rest/Target | SubSet | SubSet Ins | Rest | Instruction                        |
     |-----+------+-------+-------------+--------+------------+------+------------------------------------|
     |   0 | I+s  | 5x10m | 251         | -      |          - | 3m   | 4x8 seconds spring @2m in each set |
@@ -384,7 +418,7 @@
 
 ** FTP Test
 *** Steps
-   
+
     | set         | time | Power |
     |-------------+------+-------|
     | 0 warm-up   | 10 m |   160 |
@@ -440,7 +474,7 @@
    ----/    \
 
    .95       .95
-   
+
    Each of the sub-set consists 3 subsections. In subsection, it is a
    3 minutes period. However, the power is not a constant during this
    period. Another issue is that the power meter shows the average
@@ -455,15 +489,15 @@
 
 
          /
-   -----/- 
-   ----/ | 
+   -----/-
+   ----/ |
 
     At the end of the first part power goes up:
 
     ( the average power from the begining of power ) * 2
-    
-       = ( power difference between the top and the bottom ) * 1 * 1/2 
-   
+
+       = ( power difference between the top and the bottom ) * 1 * 1/2
+
     Using the area priciple, i.e. the area of triangle equals to the
     rectangle.
 
