@@ -34,7 +34,49 @@
     #+TBLFM: @10$4=$currentFTP * 0.93;%.0f
     #+TBLFM: @12$3=$currentFTP * 0.87;%.0f
     #+TBLFM: @13$3=$currentFTP * 0.87;%.0f
-
+*** Week 4
+    | Day | Set   | Target_Low | Target_high | Rest | Instruction          |
+    |-----+-------+------------+-------------+------+----------------------|
+    | 0   | 3x20m |        238 | -           | 5m   | -                    |
+    | s1  | -     |        248 | -           | 5m   | -                    |
+    | s2  | -     |        243 | -           | 5m   | -                    |
+    | s3  | -     |        238 | -           | 5m   | -                    |
+    | 1   | 6x10m |          - | -           | 3m   | rest after s1 and s2 |
+    | s1  | -     |        219 | -           | -    | -                    |
+    | s2  | -     |        230 | -           | -    | -                    |
+    | s3  | -     |        211 | -           | -    | -                    |
+    | s4  | -     |        219 | -           | -    | -                    |
+    | s5  | -     |        230 | -           | -    | -                    |
+    | s6  | -     |        211 | -           | -    | -                    |
+    | 2   | 3x20m |            | -           | 5m   | -                    |
+    | s1  | -     |        238 | -           | -    | -                    |
+    | s2  | -     |        248 | -           | -    | -                    |
+    | s3  | -     |        243 | -           | -    | -                    |
+    | 3   | REC   |          - | -           | -    | 60m                  |
+    | 4   | -     |          - | -           | 5m   | -                    |
+    | s1  | 2x15m |        238 | -           | 1m   | -                    |
+    | s2  | 3x10m |        238 | -           | 1m   | -                    |
+    | s3  | 3x10m |        238 | -           | 1m   | -                    |
+    | 5   | 4x20m |        238 | -           | 6m   | -                    |
+    #+TBLFM: @2$3=$currentFTP * 0.89;%.0f
+    #+TBLFM: @2$4=$currentFTP * 0.89;%.0f
+    #+TBLFM: @3$3=$currentFTP * 0.93;%.0f
+    #+TBLFM: @3$4=$currentFTP * 0.93;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @4$4=$currentFTP * 0.91;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.82;%.0f
+    #+TBLFM: @8$3=$currentFTP * 0.86;%.0f
+    #+TBLFM: @9$3=$currentFTP * 0.79;%.0f
+    #+TBLFM: @10$3=$currentFTP * 0.82;%.0f
+    #+TBLFM: @11$3=$currentFTP * 0.86;%.0f
+    #+TBLFM: @12$3=$currentFTP * 0.79;%.0f
+    #+TBLFM: @14$3=$currentFTP * 0.89;%.0f
+    #+TBLFM: @15$3=$currentFTP * 0.93;%.0f
+    #+TBLFM: @16$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @19$3=$currentFTP * 0.89;%.0f
+    #+TBLFM: @20$3=$currentFTP * 0.89;%.0f
+    #+TBLFM: @21$3=$currentFTP * 0.89;%.0f
+    #+TBLFM: @22$3=$currentFTP * 0.89;%.0f
 ** General Build
 *** Week 0
 
