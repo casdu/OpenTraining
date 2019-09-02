@@ -85,8 +85,8 @@
     | Day | Set   | Target | Rest | Instruction    |
     |-----+-------+--------+------+----------------|
     |   0 | FTP   |      - | -    | -              |
-    |   1 | 3x10m |    235 | 5m   | rest 1m in sub |
-    |   2 | 3x10m |    243 | 12m  | -              |
+    |   1 | 3x20m |    235 | 5m   | rest 1m in sub |
+    |   2 | 3x20m |    243 | 12m  | rest 1m in sub |
     |   3 | REC   |      - | -    | 60m            |
     |   4 | 5x15m |    246 | 7m   | -              |
     |   5 | 7x10m |    248 | 7m   | -              |
