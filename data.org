@@ -2,7 +2,7 @@
 #+CONSTANTS: currentFTP=267
 
 
-** Base
+** Base I
 *** Week 3
     | Day | Set    | Target_Low | Target_high | Rest | Instruction |
     |-----+--------+------------+-------------+------+-------------|
@@ -74,6 +74,27 @@
     #+TBLFM: @20$3=$currentFTP * 0.89;%.0f
     #+TBLFM: @21$3=$currentFTP * 0.89;%.0f
     #+TBLFM: @22$3=$currentFTP * 0.89;%.0f
+
+*** Week 5
+
+    Rest week.
+
+** Base II
+
+*** Week 0
+    | Day | Set   | Target | Rest | Instruction    |
+    |-----+-------+--------+------+----------------|
+    |   0 | FTP   |      - | -    | -              |
+    |   1 | 3x10m |    235 | 5m   | rest 1m in sub |
+    |   2 | 3x10m |    243 | 12m  | -              |
+    |   3 | REC   |      - | -    | 60m            |
+    |   4 | 5x15m |    246 | 7m   | -              |
+    |   5 | 7x10m |    248 | 7m   | -              |
+    #+TBLFM: @3$3=$currentFTP * 0.88;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.93;%.0f
+
 ** General Build
 *** Week 0
 
