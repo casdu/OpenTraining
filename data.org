@@ -113,7 +113,7 @@
 *** Week 2
     | Day | Set   | Target | Rest | Instruction    |
     |-----+-------+--------+------+----------------|
-    |   0 | 2x20m |    246 | 12m  | rest 1m in sub |
+    |   0 | 3x20m |    246 | 12m  | rest 1m in sub |
     |   1 | 3x20m |    246 | 4m   | -              |
     |   2 | 7x10m |    246 | 5m   | -              |
     |   3 | REC   |      - | -    | 60m            |
