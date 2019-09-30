@@ -140,6 +140,20 @@
     #+TBLFM: @6$3=$currentFTP * 0.90;%.0f
     #+TBLFM: @7$3=$currentFTP * 0.91;%.0f
 
+*** Week 4
+    | Day | Set       | Target | Rest | Instruction |
+    |-----+-----------+--------+------+-------------|
+    |   0 | 4x20m     |    237 | 6m   | -           |
+    |   1 | 3x20m     |    240 | 5m   | -           |
+    |   2 | 3x(3x10)m |    234 | 5m   | 1m          |
+    |   3 | REC       |      - | -    | 90m         |
+    |   4 | 6x15m     |    237 | 3m   | -           |
+    |   5 | 4x(2x9)m  |    243 | 7m   | 2m          |
+    #+TBLFM: @2$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @3$3=$currentFTP * 0.925;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.90;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.91;%.0f
 
 ** General Build
 *** Week 0
