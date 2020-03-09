@@ -1,0 +1,76 @@
+#+CONSTANTS: oldFTP=260
+#+CONSTANTS: currentFTP=260
+** Base II
+*** Week 0
+    | Day | Set   | Target | Rest | Instruction    |
+    |-----+-------+--------+------+----------------|
+    |   0 | 6x10m |    242 | 5m   | -              |
+    |   1 | 3x20m |    229 | 5m   | rest 1m in sub |
+    |   2 | 3x20m |    237 | 12m  | rest 1m in sub |
+    |   3 | REC   |      - | -    | 60m            |
+    |   4 | 5x15m |    239 | 7m   | -              |
+    |   5 | 7x10m |    242 | 7m   | -              |
+    #+TBLFM: @2$3=$currentFTP * 0.93;%.0f
+    #+TBLFM: @3$3=$currentFTP * 0.88;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.93;%.0f
+*** Week 1
+    | Day | Set   | Target | Rest | Instruction    |
+    |-----+-------+--------+------+----------------|
+    |   0 | 6x10m |    239 | 5m   | -              |
+    |   1 | 5x12m |    239 | 4m   | -              |
+    |   2 | 3x20m |    237 | 12m  | -              |
+    |   3 | REC   |      - | -    | 60m            |
+    |   4 | 4x20m |    237 | 5m   | -              |
+    |   5 | 3x20m |    237 | 12m  | rest 1m in sub |
+    #+TBLFM: @2$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @3$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.91;%.0f
+
+*** Week 2
+    | Day | Set   | Target | Rest | Instruction    |
+    |-----+-------+--------+------+----------------|
+    |   0 | 3x20m |    246 | 12m  | rest 1m in sub |
+    |   1 | 3x20m |    246 | 4m   | -              |
+    |   2 | 7x10m |    246 | 5m   | -              |
+    |   3 | REC   |      - | -    | 60m            |
+    |   4 | 4x20m |    240 | 6m   | -              |
+    |   5 | 3x30m |    227 | 5m   | rest 1m in sub |
+    #+TBLFM: @2$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @3$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.90;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.85;%.0f
+
+*** Week 3
+    | Day | Set       | Target | Rest | Instruction |
+    |-----+-----------+--------+------+-------------|
+    |   0 | 5x15m     |    243 | 7m   | -           |
+    |   1 | 4x15m     |    246 | 6m   | -           |
+    |   2 | 4x(2x9)m  |    238 | 7m   | r2m         |
+    |   3 | REC       |      - | -    | 60m         |
+    |   4 | 3x(3x10)m |    240 | 5m   | r1m         |
+    |   5 | 7x10m     |    243 | 5m   | -           |
+    #+TBLFM: @2$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @3$3=$currentFTP * 0.92;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.89;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.90;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.91;%.0f
+
+*** Week 4
+    | Day | Set       | Target | Rest | Instruction |
+    |-----+-----------+--------+------+-------------|
+    |   0 | 4x20m     |    237 | 6m   | -           |
+    |   1 | 3x20m     |    240 | 5m   | -           |
+    |   2 | 3x(3x10)m |    234 | 5m   | 1m          |
+    |   3 | REC       |      - | -    | 90m         |
+    |   4 | 6x15m     |    237 | 3m   | -           |
+    |   5 | 4x(2x9)m  |    243 | 7m   | 2m          |
+    #+TBLFM: @2$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @3$3=$currentFTP * 0.925;%.0f
+    #+TBLFM: @4$3=$currentFTP * 0.90;%.0f
+    #+TBLFM: @6$3=$currentFTP * 0.91;%.0f
+    #+TBLFM: @7$3=$currentFTP * 0.91;%.0f

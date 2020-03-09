@@ -1,5 +1,3 @@
-[sorry, I am doing indoor training this winter, so I stop updating this repo. I might update it in the future.]
-
 OpenTraining
 
 
@@ -14,5 +12,5 @@ OpenTraining
 目前，为了更新这些数据，我是借助 `org-mode` 的 `table` 完成的。虽然数据已经开始添入这些表格，但是目前还不能做到一键打印成大小合适的 pdf 文件。希望在不远的未来，完成这个愿望。
 
 ![头痛的问题](../master/fig/smallHeadAck.png)
- 
+
 ![在路上](../master/fig/onTheRoad.png)
